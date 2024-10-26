@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="so">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimum-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Positivus</title>
+</head>
+<body>
+    <header class="header">
+        <div class="conteiner header__inner">
+            <a href="/" class="header__logo-wrapper">
+                <img height="36px" width="220px" src="./svg/header/Logo.svg" alt="Positivus" class="header__logo" loading="lazy">
+            </a>
+            <nav class="header__menu hidden-mobile">
+                <ul class="header__menu-list">
+                    <li class="header__menu-item">
+                        <a href="/" class="header__menu-link">About us</a>
+                    </li>                    
+                    <li class="header__menu-item">
+                        <a href="/" class="header__menu-link">Services</a>
+                    </li>                    
+                    <li class="header__menu-item">
+                        <a href="/" class="header__menu-link">Use Cases</a>
+                    </li>                    
+                    <li class="header__menu-item">
+                        <a href="/" class="header__menu-link">Pricing</a>
+                    </li>                    
+                    <li class="header__menu-item">
+                        <a href="/" class="header__menu-link">Blog</a>
+                    </li>
+                </ul>
+            </nav>
+            <button class="header__button button hidden-mobile" type="button">Request a quote</button>
+            <button class="header__burger-button burger-button visualli-mobile" type="button" onclick="mobileOverlay.showModal()">
+                <span class="visually-hidden">Open navigation menu</span>
+            </button>
+        </div>
+        <dialog id="mobileOverlay" class="mobile-overlay modal visualli-mobile">
+            <form method="dialog" class="mobile-overlay__close-button-wrapper">
+                <button type="submit" class="mobile-overlay__button-close cross-button">                    
+                    <span class="visually-hidden">Close navigation menu</span>
+                </button>
+            </form>
+            <div class="mobile-overlay__body">
+                <ul class="mobile-overlay__list">
+                    <li class="mobile-overlay__element">
+                        <a href="/" class="mobile-overlay__link">About us</a>
+                    </li>                    
+                    <li class="mobile-overlay__element">
+                        <a href="/" class="mobile-overlay__link">Services</a>
+                    </li>                    
+                    <li class="mobile-overlay__element">
+                        <a href="/" class="mobile-overlay__link">Use Cases</a>
+                    </li>                    
+                    <li class="mobile-overlay__element">
+                        <a href="/" class="mobile-overlay__link">Pricing</a>
+                    </li>                    
+                    <li class="mobile-overlay__element">
+                        <a href="/" class="mobile-overlay__link">Blog</a>
+                    </li>
+                </ul>
+            </div>
+        </dialog>
+    </header>
+    <main class="content">
+        <section class="section conteiner">
+            <div class="section__body">
+                <div class="hero">
+                    <div class="hero__main">
+                        <div class="hero__body">
+                            <h1 class="hero__title">Navigating the digital landscape for success</h1>
+                            <div class="hero__contentPart"><p>Our digital marketing agency helps businesses grow and succeed online through a range of services including SEO, PPC, social media marketing, and content creation.</p></div>
+                            <button class="hero__button button">Book a consultation</button>
+                        </div>
+                        <img width="600px" height="515px" src="./svg/content/Illustration.svg" alt="" loading="lazy" class="hero__img">                        
+                    </div>
+                    <div class="hero__partners">
+                        <h2 class="visually-hidden">Our partners</h2>
+                        <ul class="hero__list">
+                            <li class="hero__item">
+                                <img width="130px" height="48px" loading="lazy" src="./image/partners/Company logo (6).svg" alt="" class="hero__image">
+                            </li>
+                            <li class="hero__item">
+                                <img width="130px" height="48px" loading="lazy" src="./image/partners/Company logo (7).svg" alt="" class="hero__image">
+                            </li>
+                            <li class="hero__item">
+                                <img width="130px" height="48px" loading="lazy" src="./image/partners/Company logo (8).svg" alt="" class="hero__image">
+                            </li>
+                            <li class="hero__item">
+                                <img width="130px" height="48px" loading="lazy" src="./image/partners/Company logo (9).svg" alt="" class="hero__image">
+                            </li>
+                            <li class="hero__item">
+                                <img width="130px" height="48px" loading="lazy" src="./image/partners/Company logo (10).svg" alt="" class="hero__image">
+                            </li>
+                            <li class="hero__item">
+                                <img width="130px" height="48px" loading="lazy" src="./image/partners/Company logo (11).svg" alt="" class="hero__image">
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section conteiner">
+            <header class="section__header">
+                <h2 class="section__title bglusha">Services</h2>                
+                <div class="section__header-content">
+                    <p>At our digital marketing agency, we offer a range of services to help businesses grow and succeed online. These services include:</p>
+                </div>
+            </header>
+            <div class="section__body">
+                <div class="section__service">
+                    <ul class="section__list">
+                        <li class="section__item">
+                            <article class="servise-card">
+                                <div class="servise-card__body">
+                                    <h3 class="servise-card__title">
+                                        <span class="puble-bg bg-span-green">Search engine</span>
+                                        <span class="puble-bg bg-span-green">optimization</span>
+                                    </h3>
+                                    <a href="/" class="servise-card__link">
+                                        <span class="servise-card__icon-link-wrapper">
+                                            <svg class="servise-card__icon" width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M1.25 13.701C0.532561 14.1152 0.286748 15.0326 0.700962 15.75C1.11518 16.4674 2.03256 16.7133 2.75 16.299L1.25 13.701ZM20.7694 5.38823C20.9838 4.58803 20.5089 3.76552 19.7087 3.55111L6.66874 0.0570541C5.86854 -0.157359 5.04603 0.317515 4.83162 1.11771C4.61721 1.91791 5.09208 2.74042 5.89228 2.95483L17.4834 6.06066L14.3776 17.6518C14.1631 18.452 14.638 19.2745 15.4382 19.4889C16.2384 19.7033 17.0609 19.2284 17.2753 18.4282L20.7694 5.38823ZM2.75 16.299L20.0705 6.29904L18.5705 3.70096L1.25 13.701L2.75 16.299Z" fill="#B9FF66"/>
+                                            </svg>                                                
+                                        </span>
+                                        <span class="servise-card__link-text">Learn more</span>
+                                    </a>
+                                </div>
+                                <img src="./image/section-content/img1.svg" alt="" width="210px" height="200px" loading="lazy" class="servise-card__image">
+                            </article>
+                        </li>
+                        <li class="section__item">
+                            <article class="servise-card servise-card--green">
+                                <div class="servise-card__body">
+                                    <h3 class="servise-card__title">
+                                        <span class="puble-bg bg-span">Pay-per-click</span>
+                                        <span class="puble-bg bg-span">advertising</span>
+                                    </h3>
+                                    <a href="/" class="servise-card__link">
+                                        <span class="servise-card__icon-link-wrapper">
+                                            <svg class="servise-card__icon" width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M1.25 13.701C0.532561 14.1152 0.286748 15.0326 0.700962 15.75C1.11518 16.4674 2.03256 16.7133 2.75 16.299L1.25 13.701ZM20.7694 5.38823C20.9838 4.58803 20.5089 3.76552 19.7087 3.55111L6.66874 0.0570541C5.86854 -0.157359 5.04603 0.317515 4.83162 1.11771C4.61721 1.91791 5.09208 2.74042 5.89228 2.95483L17.4834 6.06066L14.3776 17.6518C14.1631 18.452 14.638 19.2745 15.4382 19.4889C16.2384 19.7033 17.0609 19.2284 17.2753 18.4282L20.7694 5.38823ZM2.75 16.299L20.0705 6.29904L18.5705 3.70096L1.25 13.701L2.75 16.299Z" fill="#B9FF66"/>
+                                            </svg>                                                
+                                        </span>
+                                        <span class="servise-card__link-text">Learn more</span>
+                                    </a>
+                                </div>
+                                <img src="./image/section-content/img2.svg" alt="" width="210px" height="200px" loading="lazy" class="servise-card__image">
+                            </article>
+                        </li>
+                        <li class="section__item">
+                            <article class="servise-card servise-card--dark">
+                                <div class="servise-card__body">
+                                    <h3 class="servise-card__title">
+                                        <span class="puble-bg bg-span">Social Media</span>
+                                        <span class="puble-bg bg-span">Marketing</span>
+                                    </h3>
+                                    <a href="/" class="servise-card__link">
+                                        <span class="servise-card__icon-link-wrapper servise-card__icon-link-wrapper--light">
+                                            <svg class="servise-card__icon" width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M1.25 13.701C0.532561 14.1152 0.286748 15.0326 0.700962 15.75C1.11518 16.4674 2.03256 16.7133 2.75 16.299L1.25 13.701ZM20.7694 5.38823C20.9838 4.58803 20.5089 3.76552 19.7087 3.55111L6.66874 0.0570541C5.86854 -0.157359 5.04603 0.317515 4.83162 1.11771C4.61721 1.91791 5.09208 2.74042 5.89228 2.95483L17.4834 6.06066L14.3776 17.6518C14.1631 18.452 14.638 19.2745 15.4382 19.4889C16.2384 19.7033 17.0609 19.2284 17.2753 18.4282L20.7694 5.38823ZM2.75 16.299L20.0705 6.29904L18.5705 3.70096L1.25 13.701L2.75 16.299Z" fill="#B9FF66"/>
+                                            </svg>                                                
+                                        </span>
+                                        <span class="servise-card__link-text servise-card__link-text--light">Learn more</span>
+                                    </a>
+                                </div>
+                                <img src="./image/section-content/img3.svg" alt="" width="210px" height="200px" loading="lazy" class="servise-card__image">
+                            </article>
+                        </li>
+                        <li class="section__item">
+                            <article class="servise-card">
+                                <div class="servise-card__body">
+                                    <h3 class="servise-card__title">
+                                        <span class="puble-bg bg-span-green">Email</span>
+                                        <span class="puble-bg bg-span-green">Marketing</span>
+                                    </h3>
+                                    <a href="/" class="servise-card__link">
+                                        <span class="servise-card__icon-link-wrapper">
+                                            <svg class="servise-card__icon" width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M1.25 13.701C0.532561 14.1152 0.286748 15.0326 0.700962 15.75C1.11518 16.4674 2.03256 16.7133 2.75 16.299L1.25 13.701ZM20.7694 5.38823C20.9838 4.58803 20.5089 3.76552 19.7087 3.55111L6.66874 0.0570541C5.86854 -0.157359 5.04603 0.317515 4.83162 1.11771C4.61721 1.91791 5.09208 2.74042 5.89228 2.95483L17.4834 6.06066L14.3776 17.6518C14.1631 18.452 14.638 19.2745 15.4382 19.4889C16.2384 19.7033 17.0609 19.2284 17.2753 18.4282L20.7694 5.38823ZM2.75 16.299L20.0705 6.29904L18.5705 3.70096L1.25 13.701L2.75 16.299Z" fill="#B9FF66"/>
+                                            </svg>                                                
+                                        </span>
+                                        <span class="servise-card__link-text">Learn more</span>
+                                    </a>
+                                </div>
+                                <img src="./image/section-content/img4.svg" alt="" width="210px" height="200px" loading="lazy" class="servise-card__image">
+                            </article>
+                        </li>
+                        <li class="section__item">
+                            <article class="servise-card servise-card--green">
+                                <div class="servise-card__body">
+                                    <h3 class="servise-card__title">
+                                        <span class="puble-bg bg-span">Content</span>
+                                        <span class="puble-bg bg-span">Creation</span>
+                                    </h3>
+                                    <a href="/" class="servise-card__link">
+                                        <span class="servise-card__icon-link-wrapper">
+                                            <svg class="servise-card__icon" width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M1.25 13.701C0.532561 14.1152 0.286748 15.0326 0.700962 15.75C1.11518 16.4674 2.03256 16.7133 2.75 16.299L1.25 13.701ZM20.7694 5.38823C20.9838 4.58803 20.5089 3.76552 19.7087 3.55111L6.66874 0.0570541C5.86854 -0.157359 5.04603 0.317515 4.83162 1.11771C4.61721 1.91791 5.09208 2.74042 5.89228 2.95483L17.4834 6.06066L14.3776 17.6518C14.1631 18.452 14.638 19.2745 15.4382 19.4889C16.2384 19.7033 17.0609 19.2284 17.2753 18.4282L20.7694 5.38823ZM2.75 16.299L20.0705 6.29904L18.5705 3.70096L1.25 13.701L2.75 16.299Z" fill="#B9FF66"/>
+                                            </svg>                                                
+                                        </span>
+                                        <span class="servise-card__link-text">Learn more</span>
+                                    </a>
+                                </div>
+                                <img src="./image/section-content/img5.svg" alt="" width="210px" height="200px" loading="lazy" class="servise-card__image">
+                            </article>
+                        </li>
+                        <li class="section__item">
+                            <article class="servise-card servise-card--dark">
+                                <div class="servise-card__body">
+                                    <h3 class="servise-card__title">
+                                        <span class="puble-bg bg-span-green">Analytics and</span>
+                                        <span class="puble-bg bg-span-green">Tracking</span>
+                                    </h3>
+                                    <a href="/" class="servise-card__link">
+                                        <span class="servise-card__icon-link-wrapper servise-card__icon-link-wrapper--light">
+                                            <svg class="servise-card__icon" width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M1.25 13.701C0.532561 14.1152 0.286748 15.0326 0.700962 15.75C1.11518 16.4674 2.03256 16.7133 2.75 16.299L1.25 13.701ZM20.7694 5.38823C20.9838 4.58803 20.5089 3.76552 19.7087 3.55111L6.66874 0.0570541C5.86854 -0.157359 5.04603 0.317515 4.83162 1.11771C4.61721 1.91791 5.09208 2.74042 5.89228 2.95483L17.4834 6.06066L14.3776 17.6518C14.1631 18.452 14.638 19.2745 15.4382 19.4889C16.2384 19.7033 17.0609 19.2284 17.2753 18.4282L20.7694 5.38823ZM2.75 16.299L20.0705 6.29904L18.5705 3.70096L1.25 13.701L2.75 16.299Z" fill="#B9FF66"/>
+                                            </svg>                                                
+                                        </span>
+                                        <span class="servise-card__link-text servise-card__link-text--light">Learn more</span>
+                                    </a>
+                                </div>
+                                <img src="./image/section-content/img6.svg" alt="" width="210px" height="200px" loading="lazy" class="servise-card__image">
+                            </article>
+                        </li>
+                    </ul>
+                    <div class="section-banner banner">
+                        <div class="section-banner__bodu">
+                            <h3 class="section-banner__title">Let’s make things happen</h3>
+                            <div class="section-banner__description">
+                                <p>
+                                    Contact us today to learn more about how our digital marketing services can help your business grow and succeed online.
+                                </p>
+                            </div>
+                            <button class="section-banner__button button">Get your free proposal</button>
+                        </div>
+                        <img src="./image/section-content/banner/banner-image.svg" width="494px" height="394px" alt="" class="section-banner__image">
+                    </div>
+                </div>
+            </div>                        
+        </section>
+        <section class="section conteiner">
+            <header class="section__header-case">
+                <h2 class="section__title-case bglusha">Case Studies</h2>
+                <div class="section__description-case">
+                    <p>Explore Real-Life Examples of Our Proven Digital Marketing Success through Our Case Studies</p>
+                </div>
+            </header>
+            <article class="section__body-case">
+                <ul class="section__case-list">
+                    <li class="section__case-item">
+                        <div class="section__case-element case-element">
+                            <div class="case-element__text">
+                                <p>For a local restaurant, we implemented a targeted PPC campaign that resulted in a 50% increase in website traffic and a 25% increase in sales.</p>
+                            </div> 
+                            <a href="/" class="case-element__link">
+                                <div class="case-element__title-link">Learn more</div>
+                                <div class="case-element__icon-wrapper">
+                                    <svg class="case-element-icon" width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1.25 13.701C0.532561 14.1152 0.286748 15.0326 0.700962 15.75C1.11518 16.4674 2.03256 16.7133 2.75 16.299L1.25 13.701ZM20.7694 5.38823C20.9838 4.58803 20.5089 3.76552 19.7087 3.55111L6.66874 0.0570541C5.86854 -0.157359 5.04603 0.317515 4.83162 1.11771C4.61721 1.91791 5.09208 2.74042 5.89228 2.95483L17.4834 6.06066L14.3776 17.6518C14.1631 18.452 14.638 19.2745 15.4382 19.4889C16.2384 19.7033 17.0609 19.2284 17.2753 18.4282L20.7694 5.38823ZM2.75 16.299L20.0705 6.29904L18.5705 3.70096L1.25 13.701L2.75 16.299Z" fill="#B9FF66"/>
+                                    </svg>                                    
+                                </div>
+                            </a>                                                       
+                        </div>
+                    </li>
+                    <li class="section__case-item">
+                        <div class="section__case-element case-element case-border">
+                            <div class="case-element__text">
+                                <p>For a local restaurant, we implemented a targeted PPC campaign that resulted in a 50% increase in website traffic and a 25% increase in sales.</p>
+                            </div> 
+                            <a href="/" class="case-element__link">
+                                <div class="case-element__title-link">Learn more</div>
+                                <div class="case-element__icon-wrapper">
+                                    <svg class="case-element-icon" width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1.25 13.701C0.532561 14.1152 0.286748 15.0326 0.700962 15.75C1.11518 16.4674 2.03256 16.7133 2.75 16.299L1.25 13.701ZM20.7694 5.38823C20.9838 4.58803 20.5089 3.76552 19.7087 3.55111L6.66874 0.0570541C5.86854 -0.157359 5.04603 0.317515 4.83162 1.11771C4.61721 1.91791 5.09208 2.74042 5.89228 2.95483L17.4834 6.06066L14.3776 17.6518C14.1631 18.452 14.638 19.2745 15.4382 19.4889C16.2384 19.7033 17.0609 19.2284 17.2753 18.4282L20.7694 5.38823ZM2.75 16.299L20.0705 6.29904L18.5705 3.70096L1.25 13.701L2.75 16.299Z" fill="#B9FF66"/>
+                                    </svg>                                    
+                                </div>
+                            </a>                                                       
+                        </div>
+                    </li>
+                    <li class="section__case-item">
+                        <div class="section__case-element case-element case-border">
+                            <div class="case-element__text">
+                                <p>For a local restaurant, we implemented a targeted PPC campaign that resulted in a 50% increase in website traffic and a 25% increase in sales.</p>
+                            </div> 
+                            <a href="/" class="case-element__link">
+                                <div class="case-element__title-link">Learn more</div>
+                                <div class="case-element__icon-wrapper">
+                                    <svg class="case-element-icon" width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1.25 13.701C0.532561 14.1152 0.286748 15.0326 0.700962 15.75C1.11518 16.4674 2.03256 16.7133 2.75 16.299L1.25 13.701ZM20.7694 5.38823C20.9838 4.58803 20.5089 3.76552 19.7087 3.55111L6.66874 0.0570541C5.86854 -0.157359 5.04603 0.317515 4.83162 1.11771C4.61721 1.91791 5.09208 2.74042 5.89228 2.95483L17.4834 6.06066L14.3776 17.6518C14.1631 18.452 14.638 19.2745 15.4382 19.4889C16.2384 19.7033 17.0609 19.2284 17.2753 18.4282L20.7694 5.38823ZM2.75 16.299L20.0705 6.29904L18.5705 3.70096L1.25 13.701L2.75 16.299Z" fill="#B9FF66"/>
+                                    </svg>                                    
+                                </div>
+                            </a>                                                       
+                        </div>
+                    </li>
+                </ul>
+            </article>
+        </section>
+        <section class="section conteiner">
+            <header class="section__header header-big-list">
+                <h2 class="header-big-list__title bglusha">Our Working Process </h2>
+                <div class="header-big-list__text">
+                    <p>Step-by-Step Guide to . Your Business Goals</p>
+                </div>
+            </header>
+            <div class="section__body body-big-list-wrapper">
+                <ul class="body-big-list-wrapper__list">
+                    <li class="body-big-list-wrapper__item">
+                        <article class="body-big-list-wrapper__element big-list-element">
+                            <div class="big-list-element__body">
+                                <h2 class="big-list-element__num">01</h2>
+                                <h3 class="big-list-element__title">Consultation</h3>
+                            </div>
+                            <div class="big-list-element__inner-wrapper">
+                                <div class="big-list-element__inner"></div>
+                            </div>
+                        </article>
+                    </li>
+                    <li class="body-big-list-wrapper__item">
+                        <article class="body-big-list-wrapper__element big-list-element">
+                            <div class="big-list-element__body">
+                                <h2 class="big-list-element__num">02</h2>
+                                <h3 class="big-list-element__title">Research and Strategy Development</h3>
+                            </div>
+                            <div class="big-list-element__inner-wrapper">
+                                <div class="big-list-element__inner"></div>
+                            </div>
+                        </article>
+                    </li>
+                    <li class="body-big-list-wrapper__item">
+                        <article class="body-big-list-wrapper__element big-list-element">
+                            <div class="big-list-element__body">
+                                <h2 class="big-list-element__num">03</h2>
+                                <h3 class="big-list-element__title">Implementation</h3>
+                            </div>
+                            <div class="big-list-element__inner-wrapper">
+                                <div class="big-list-element__inner"></div>
+                            </div>
+                        </article>
+                    </li>
+                    <li class="body-big-list-wrapper__item">
+                        <article class="body-big-list-wrapper__element big-list-element">
+                            <div class="big-list-element__body">
+                                <h2 class="big-list-element__num">04</h2>
+                                <h3 class="big-list-element__title">Monitoring and Optimization</h3>
+                            </div>
+                            <div class="big-list-element__inner-wrapper">
+                                <div class="big-list-element__inner"></div>
+                            </div>
+                        </article>
+                    </li>
+                    <li class="body-big-list-wrapper__item">
+                        <article class="body-big-list-wrapper__element big-list-element">
+                            <div class="big-list-element__body">
+                                <h2 class="big-list-element__num">05</h2>
+                                <h3 class="big-list-element__title">Reporting and Communication</h3>
+                            </div>
+                            <div class="big-list-element__inner-wrapper">
+                                <div class="big-list-element__inner"></div>
+                            </div>
+                        </article>
+                    </li>
+                    <li class="body-big-list-wrapper__item">
+                        <article class="body-big-list-wrapper__element big-list-element">
+                            <div class="big-list-element__body">
+                                <h2 class="big-list-element__num">06</h2>
+                                <h3 class="big-list-element__title">Continual Improvement</h3>
+                            </div>
+                            <div class="big-list-element__inner-wrapper">
+                                <div class="big-list-element__inner"></div>
+                            </div>
+                        </article>
+                    </li>
+                </ul>
+            </div>
+        </section>                
+    </main>    
+</body>
+</html>
